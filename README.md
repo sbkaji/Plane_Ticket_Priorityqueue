@@ -1,12 +1,13 @@
 # Plane_Ticket_Priorityqueue
 Flight Booking systemn using priority queue
 
-**OUTPUT
- Menu
+##OUTPUT
+## Menu
 1.Insert
-2.Display
+2.Display	
 3.Exit
-Choice : 1
+
+##Choice : 1
 Total seats :20 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -23,7 +24,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 7 4
+##Enter the Passenger no and its priority : 7 4
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -33,7 +34,7 @@ List of Passenger no:
 7:Common Passenger priority
 
 
-Enter the Passenger no and its priority : 6 3
+##Enter the Passenger no and its priority : 6 3
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -42,7 +43,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 5 2
+##Enter the Passenger no and its priority : 5 2
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -51,7 +52,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 4 1
+##Enter the Passenger no and its priority : 4 1
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -60,7 +61,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 7 4
+##Enter the Passenger no and its priority : 7 4
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -69,7 +70,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 6 3
+##Enter the Passenger no and its priority : 6 3
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -78,7 +79,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 5 2
+##Enter the Passenger no and its priority : 5 2
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -87,7 +88,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 4 1
+##Enter the Passenger no and its priority : 4 1
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -96,7 +97,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 7 4
+##Enter the Passenger no and its priority : 7 4
 
 List of priority:1-->2-->3-->4
 List of Passenger no:
@@ -105,7 +106,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
-Enter the Passenger no and its priority : 4 1
+##Enter the Passenger no and its priority : 4 1
 
 press 1 to continue
 1
@@ -135,7 +136,7 @@ The Vacant Seats ranges from 11 to 20
  
  
 ***/
-Case Study
+##Case Study
 The process of Air flight Indigo reservation includes the boarding card that is printed
 with a seat number for the aircraft cabin. In many cases, low-cost airline operators do
 not allocate seats at check-in, allowing passengers to choose when they board instead.
@@ -151,6 +152,7 @@ gate and scramble for a seat that is not yet occupied!
 We will model this situation as a simulation, based upon a queue to which priority
 conditions apply. Of the boarding queue ‘items’, the highest priority is given in the
 below order:-
+##S
 1. Passengers needing assistance who are placed at the queue’s head (P_value 3)=
 Assistance Passenger
 2. Next are those who have paid extra for the privilege (P_value 2). = Extra Amount
@@ -161,9 +163,9 @@ There are four categories to consider and you can assign the priorities as follo
 Integer values of three for those in need of assistance, down to zero for the ‘standard’
 passenger.
 
-Task: Build the priority queue by ‘inserting’ passengers into it according to these
+##Task: Build the priority queue by ‘inserting’ passengers into it according to these
 priority values.
-Output: Total Seats in the flight are X
+##Output: Total Seats in the flight are X
 Enter the number of passengers Y
 Then display the list of passenger in terms to their categories by numbering them
 as per the nodes value
