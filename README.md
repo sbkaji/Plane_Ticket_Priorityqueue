@@ -32,6 +32,7 @@ List of Passenger no:
 6:Child Passenger priority
 7:Common Passenger priority
 
+
 Enter the Passenger no and its priority : 6 3
 
 List of priority:1-->2-->3-->4
